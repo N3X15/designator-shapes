@@ -176,6 +176,18 @@
 		<selectedUiIconPath>UI/Commands/Smol/Selected/Grayscale/fill</selectedUiIconPath>
 		<pauseOnSelection>true</pauseOnSelection>
 	</Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef>
+	<Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef>
+		<defName>FloodFillTerrain</defName>
+		<label>flood fill (terrain)</label>
+		<description>Fill based on terrain type.</description>
+		<uiIconPath>UI/Commands/Smol/fill_terrain</uiIconPath>
+		<draggable>false</draggable>
+		<numRotations>1</numRotations>
+		<drawMethodName>Merthsoft.DesignatorShapes.Shapes.FloodFillByTerrain.Fill</drawMethodName>
+		<overlayGroup>FloodFill</overlayGroup>
+		<selectedUiIconPath>UI/Commands/Smol/Selected/Grayscale/fill_terrain</selectedUiIconPath>
+		<pauseOnSelection>true</pauseOnSelection>
+	</Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef>
 
 	<Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef>
 		<defName>SunLamp</defName>

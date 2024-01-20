@@ -53,6 +53,12 @@
         <description>Fill between a walled-in area.</description>
         <uiIconPath>UI/Commands/Smol/fill</uiIconPath>
     </Merthsoft.DesignatorShapes.Defs.OverlayGroupDef>
+    <Merthsoft.DesignatorShapes.Defs.OverlayGroupDef>
+        <defName>FloodFillTerrain</defName>
+        <label>Flood fill (Terrain)</label>
+        <description>Fill based on terrain type.</description>
+        <uiIconPath>UI/Commands/Smol/fill_terrain</uiIconPath>
+    </Merthsoft.DesignatorShapes.Defs.OverlayGroupDef>
 
     <Merthsoft.DesignatorShapes.Defs.OverlayGroupDef>
         <defName>Etc</defName>
